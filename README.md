@@ -1,4 +1,4 @@
-# Apni Dukan
+# ShopLine
 
 > A MERN full stack ecommerce project
 
