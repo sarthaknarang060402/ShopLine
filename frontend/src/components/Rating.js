@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Rating = ({ value, text, color }) => {
   return (
-    <div>
+    <div className='rating'>
       <span>
         <i
           style={{ color }}
@@ -68,8 +68,9 @@ const Rating = ({ value, text, color }) => {
     </div>
   )
 }
+
 Rating.defaultProps = {
-  color: 'orange',
+  color: '#f8e825',
 }
 
 Rating.propTypes = {
@@ -77,4 +78,5 @@ Rating.propTypes = {
   text: PropTypes.string.isRequired,
   color: PropTypes.string,
 }
+
 export default Rating
